@@ -1,16 +1,16 @@
-import React from 'react';
-import Image from 'next/image';
+import React from &apos;react&apos;;
+import Image from &apos;next/image&apos;;
 
 const About = () => {
   return (
     <section id="about" className="bg-gray-100 py-10">
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="flex flex-col md:flex-row md:mb-6 items-center gap-6 ">
-          {/* Image Section */}
+        
           <div className="flex-1">
-            <Image src="/dev.jpg" alt="About Me" width={500} height={500} className="rounded-md shadow-lg" />
+            <Image src="/dev.png" alt="About Me" width={500} height={500} className="rounded-md shadow-lg" />
           </div>
-          {/* Text Section */}
+       
           <div className="flex-1 bg-white p-6 rounded-md shadow-lg">
             <p className="text-gray-700 mb-4">
               Hello! I am passionate and aspiring junior web developer. I have a strong foundation in web development technologies and a keen interest in creating user-friendly and visually appealing websites and applications.
@@ -25,10 +25,10 @@ const About = () => {
               I am looking for opportunities to contribute my skills and passion to a dynamic and innovative team where I can grow professionally while making a positive impact on exciting web development projects.
             </p>
             <p className="text-gray-700 mb-4">
-              When I'm not coding, you can find me exploring new coding challenges, reading tech blogs, or enjoying outdoor activities. I am also a strong believer in giving back to the community and actively participate in open-source projects.
+              When I&apos;m not coding, you can find me exploring new coding challenges, reading tech blogs, or enjoying outdoor activities. I am also a strong believer in giving back to the community and actively participate in open-source projects.
             </p>
             <p className="text-gray-700">
-              Let's connect and collaborate on exciting projects together!
+              Let&apos;s connect and collaborate on exciting projects together!
             </p>
           </div>
         </div>
