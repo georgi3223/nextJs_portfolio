@@ -1,5 +1,5 @@
-import React from &apos;react&apos;;
-import Image from &apos;next/image&apos;;
+import React from 'react';
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -25,10 +25,10 @@ const About = () => {
               I am looking for opportunities to contribute my skills and passion to a dynamic and innovative team where I can grow professionally while making a positive impact on exciting web development projects.
             </p>
             <p className="text-gray-700 mb-4">
-              When I&apos;m not coding, you can find me exploring new coding challenges, reading tech blogs, or enjoying outdoor activities. I am also a strong believer in giving back to the community and actively participate in open-source projects.
+              When I'm not coding, you can find me exploring new coding challenges, reading tech blogs, or enjoying outdoor activities. I am also a strong believer in giving back to the community and actively participate in open-source projects.
             </p>
             <p className="text-gray-700">
-              Let&apos;s connect and collaborate on exciting projects together!
+              Let's connect and collaborate on exciting projects together!
             </p>
           </div>
         </div>
